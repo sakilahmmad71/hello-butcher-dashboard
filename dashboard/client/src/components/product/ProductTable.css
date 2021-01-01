@@ -1,0 +1,28 @@
+.producttable {
+    margin: 15px;
+    background: var(--bg-white);
+    padding: 10px;
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+
+.producttable__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.products__action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.producttable__image {
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    border: 1px solid var(--primary-background);
+}

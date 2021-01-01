@@ -1,0 +1,15 @@
+.ordertable {
+    margin: 15px;
+    background: var(--bg-white);
+    padding: 10px;
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+
+.ordertable__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}

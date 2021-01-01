@@ -1,0 +1,15 @@
+.postcodetable {
+    margin: 15px;
+    background: var(--bg-white);
+    padding: 10px;
+    border-radius: 15px;
+    padding-bottom: 15px;
+}
+
+.postcodetable__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

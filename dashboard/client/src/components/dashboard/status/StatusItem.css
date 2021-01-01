@@ -1,0 +1,18 @@
+.status__item {
+    margin: 10px;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.status__item--icon {
+    color: var(--text-white);
+}
+
+.status__item--text {
+    margin-left: 20px !important;
+    line-height: 1.5;
+    color: var(--text-dark);
+}

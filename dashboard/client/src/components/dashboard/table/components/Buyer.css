@@ -1,0 +1,21 @@
+.salesbuyer__container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.salesbuyer__container--image {
+}
+
+.salesbuyer__container--text {
+    margin-left: 10px;
+    line-height: 1.6;
+}
+
+.salesbuyer__container--text p {
+    font-size: 16;
+}
+
+.salesbuyer__container--text h5 {
+    text-align: left;
+    color: var(--bg-gray);
+}

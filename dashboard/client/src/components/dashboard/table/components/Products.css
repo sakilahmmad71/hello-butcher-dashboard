@@ -1,0 +1,14 @@
+.salesproducts__container {
+    display: flex;
+}
+
+.salesproducts__container--image {
+    height: 60px;
+    width: 60px;
+    background: rgb(219, 211, 211);
+}
+
+.salesproducts__container--text {
+    margin-left: 10px;
+    line-height: 1.6;
+}

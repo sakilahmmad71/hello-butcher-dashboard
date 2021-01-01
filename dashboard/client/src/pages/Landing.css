@@ -1,0 +1,42 @@
+.landing {
+    height: 100vh;
+}
+
+.landing__nav {
+    width: 100vw;
+    background: var(--primary-color);
+}
+
+.landing__nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23px;
+}
+
+.landing__brand {
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.landing__login {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.landing__cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 40px;
+}
+
+.landing__cover--text {
+    padding: 20px;
+}
+
+.landing__cover--text a {
+    text-decoration: none;
+}

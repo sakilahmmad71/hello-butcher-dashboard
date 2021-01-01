@@ -1,0 +1,88 @@
+export const salesData = [
+    {
+        name: 'Jan',
+        Chickens: 40,
+        Beefs: 124,
+        Sheeps: 17,
+        Others: 20,
+    },
+    {
+        name: 'Feb',
+        Chickens: 45,
+        Beefs: 100,
+        Sheeps: 2,
+        Others: 100,
+    },
+    {
+        name: 'Mar',
+        Chickens: 27,
+        Beefs: 20,
+        Sheeps: 0,
+        Others: 80,
+    },
+    {
+        name: 'Apr',
+        Chickens: 50,
+        Beefs: 120,
+        Sheeps: 29,
+        Others: 14,
+    },
+    {
+        name: 'May',
+        Chickens: 32,
+        Beefs: 117,
+        Sheeps: 20,
+        Others: 86,
+    },
+    {
+        name: 'Jun',
+        Chickens: 50,
+        Beefs: 34,
+        Sheeps: 11,
+        Others: 29,
+    },
+    {
+        name: 'Jul',
+        Chickens: 24,
+        Beefs: 40,
+        Sheeps: 3,
+        Others: 40,
+    },
+    {
+        name: 'Aug',
+        Chickens: 32,
+        Beefs: 117,
+        Sheeps: 20,
+        Others: 86,
+    },
+    {
+        name: 'Sept',
+        Chickens: 40,
+        Beefs: 20,
+        Sheeps: 24,
+        Others: 100,
+    },
+    {
+        name: 'Sept',
+        Chickens: 27,
+        Beefs: 20,
+        Sheeps: 0,
+        Others: 80,
+    },
+    {
+        name: 'Oct',
+        Chickens: 50,
+        Beefs: 113,
+        Sheeps: 29,
+        Others: 14,
+    },
+    {
+        name: 'Dec',
+        Chickens: 79,
+        Beefs: 101,
+        Sheeps: 4,
+        Others: 3,
+    },
+];
+
+export default salesData;

@@ -1,0 +1,5 @@
+.addproduct__root {
+    background: var(--bg-white);
+    padding: 30px 10px;
+    border-radius: 15px;
+}

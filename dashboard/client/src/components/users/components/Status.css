@@ -1,0 +1,11 @@
+.userprofilestatus__active {
+    display: flex;
+    align-items: center;
+    color: var(--text-info);
+}
+
+.userprofilestatus__inactive {
+    display: flex;
+    align-items: center;
+    color: var(--text-warning);
+}

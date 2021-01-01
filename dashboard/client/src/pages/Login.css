@@ -1,0 +1,50 @@
+.login {
+    background: url('../assets/login-bg.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.login__row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7%;
+}
+
+.login__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    background: var(--bg-white);
+    border-radius: 15px;
+}
+
+.login__header {
+}
+
+.login__maincontent {
+    padding: 45px;
+}
+
+.login__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.login__form {
+}
+
+.login__checkbox {
+    margin: 10px 0;
+}
+
+.login__button {
+    margin: 10px 0;
+}

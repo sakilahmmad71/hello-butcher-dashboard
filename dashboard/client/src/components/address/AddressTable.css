@@ -1,0 +1,14 @@
+.addresstable {
+    margin: 15px;
+    background: var(--bg-white);
+    padding: 15px;
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+
+.addresstable__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}

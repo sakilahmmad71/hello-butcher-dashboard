@@ -1,0 +1,19 @@
+.activity {
+    margin: 0px 15px 15px 15px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.activity__items {
+    color: white;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+    cursor: pointer;
+}
+
+.activity__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

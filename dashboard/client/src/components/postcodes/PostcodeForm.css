@@ -1,0 +1,5 @@
+.postcodeform {
+    padding: 40px;
+    border-radius: 15px;
+    background: var(--bg-white);
+}

@@ -1,0 +1,14 @@
+.userinfo {
+    display: flex;
+    align-items: center;
+}
+
+.userinfo__icon {
+    color: var(--bf-dark);
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.userinfo__text {
+    color: var(--bf-dark);
+}

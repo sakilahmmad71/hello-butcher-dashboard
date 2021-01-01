@@ -1,0 +1,23 @@
+.userstable {
+    margin: 15px;
+    background: var(--bg-white);
+    padding: 0px 10px;
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+
+.userstable__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.MuiTableCell-root {
+    padding: 5px !important;
+}
+
+.MuiTableRow-root.MuiTableRow-hover:hover {
+    background: var(--bg-hover) !important;
+}
