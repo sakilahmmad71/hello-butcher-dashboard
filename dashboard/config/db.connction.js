@@ -6,20 +6,20 @@ const mongoURI = `mongodb+srv://hello-butcher:butcher123@hello-butcher.cb3zi.mon
 
 // MongoDB has some depricated warning this options ignore the warnings
 const connectionOptions = {
-    useNewUrlParser: true,
-    useCreateIndex: true,
-    useFindAndModify: false,
-    useUnifiedTopology: true,
+	useNewUrlParser: true,
+	useCreateIndex: true,
+	useFindAndModify: false,
+	useUnifiedTopology: true,
 };
 
 const dataBaseConnection = async () => {
-    try {
-        await mongoose.connect(mongoURI, connectionOptions);
-        console.log('MongoDB Connected Successfully.');
-    } catch (error) {
-        console.error(error.message);
-        process.exit(1);
-    }
+	try {
+		await mongoose.connect(mongoURI, connectionOptions);
+		console.log('MongoDB Connected Successfully.');
+	} catch (error) {
+		console.error(error.message);
+		process.exit(1);
+	}
 };
 
 module.exports = dataBaseConnection;

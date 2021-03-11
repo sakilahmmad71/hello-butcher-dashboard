@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const {Stream} = require('nodemailer/lib/xoauth2');
 const Schema = mongoose.Schema;
 
 const productSchema = new Schema({
